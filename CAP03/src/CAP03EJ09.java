@@ -7,5 +7,7 @@ public class CAP03EJ09 {
         double altura=sc.nextDouble();
         System.out.print("Introduzca el radio del cono (cm): ");
         double radio=sc.nextDouble();
+        System.out.println("El volumen del cono es: "+ ((3.14*radio*radio*altura)/3));
+        sc.close();
     }
 }
