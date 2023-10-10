@@ -10,5 +10,6 @@ public class CAP03EJ12 {
         double nota2 = ((notaFinal * 100) - (nota1 * 40)) / 60;
         System.out.print("Para tener un " + notaFinal + " en el trimestre");
         System.out.println(" necesita sacar un " + nota2 + " en el segundo examen.");  
+        sc.close();
     }
 }
